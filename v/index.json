@@ -8,6 +8,22 @@
     "manu": "LONKING",
     "model": "CDM855H",
     "htmlPath": "v/ST-4624-11.html",
-    "publishedAt": "2026-10-25T10:29:23.906Z"
+    "publishedAt": "2026-10-25T10:29:23.906Z",
+    "_matched": [
+      "رقم الشاصي",
+      "رقم اللوحة",
+      "تاريخ الفحص"
+    ]
+  },
+  {
+    "certNo": "ST-4624-12",
+    "date": "13/Aug/2026",
+    "reg": "A 5780 - BASRA",
+    "chassis": "LSH0855HLRAA05831",
+    "client": "MSK Co., BASRA , IRAQ",
+    "manu": "LONKING",
+    "model": "CDM855H",
+    "htmlPath": "v/ST-4624-12.html",
+    "publishedAt": "2026-10-25T10:33:31.149Z"
   }
 ]
