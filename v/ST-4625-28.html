@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>QR | Scope Petroleum Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@300;400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; }
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; line-height: 1.7; color: #333; background: #fff; }
+a { text-decoration: none; }
+img { max-width: 100%; height: auto; display: block; }
+#site-header { background: #ffffff; border-bottom: 1px solid #e0e0e0; box-shadow: 0 2px 6px rgba(0,0,0,.07); position: sticky; top: 0; z-index: 999; }
+.header-inner { max-width: 1170px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 20px; height: 75px; }
+.site-logo img { height: 52px; width: auto; }
+.hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 6px; }
+.hamburger span { display: block; width: 24px; height: 2px; background: #333; transition: all .3s; }
+.hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+.main-nav ul { list-style: none; display: flex; align-items: center; }
+.main-nav > ul > li { position: relative; }
+.main-nav > ul > li > a { display: block; padding: 0 14px; line-height: 75px; font-size: 13px; font-weight: 700; color: #333; text-transform: uppercase; letter-spacing: .5px; transition: color .2s; }
+.main-nav > ul > li > a:hover { color: #e07b00; }
+.main-nav > ul > li > a .arr { font-size: 9px; margin-left: 3px; }
+.main-nav .sub-menu { display: none; position: absolute; top: 100%; left: 0; background: #fff; min-width: 230px; border-top: 3px solid #e07b00; box-shadow: 0 6px 20px rgba(0,0,0,.12); list-style: none; z-index: 1000; }
+.main-nav > ul > li:hover .sub-menu { display: block; }
+.main-nav .sub-menu li a { display: block; padding: 10px 18px; font-size: 12.5px; color: #444; border-bottom: 1px solid #f2f2f2; transition: background .15s, color .15s; }
+.main-nav .sub-menu li a:hover { background: #fdf6ee; color: #e07b00; }
+.page-bg { background: #f7f4ef; min-height: 60px; padding: 0; }
+.page-wrap { max-width: 1170px; margin: 0 auto; padding: 42px 20px 60px; }
+h1.page-title { font-family: 'Raleway', sans-serif; font-size: 32px; font-weight: 700; color: #1a1a1a; margin-bottom: 30px; }
+.cert-card { background: #fff; border: 1px solid #e0e0e0; border-radius: 4px; padding: 36px 30px 30px; box-shadow: 0 1px 8px rgba(0,0,0,.06); margin-bottom: 20px; }
+.cert-intro { font-size: 14px; color: #333; margin-bottom: 18px; }
+.cert-field { font-size: 14px; color: #333; margin-bottom: 10px; }
+.cert-field strong { font-weight: 700; }
+.cert-images-wrap { margin-top: 24px; }
+.cert-images-wrap .cert-image-box { border: 1px solid #ccc; border-radius: 4px; overflow: hidden; margin-bottom: 18px; }
+.cert-images-wrap .cert-image-box:last-child { margin-bottom: 0; }
+.cert-images-wrap img { width: 100%; display: block; }
+#site-footer { background: linear-gradient(175deg, #3a3a3a 0%, #5a4500 40%, #c8860a 75%, #e0a020 100%); color: #fff; padding: 50px 20px 0; }
+.footer-inner { max-width: 1170px; margin: 0 auto; }
+.footer-scope-logo { max-width: 220px; margin: 0 auto 36px; display: block; }
+.osha-wrap { text-align: center; margin-bottom: 10px; }
+.osha-wrap a img { max-width: 200px; margin: 0 auto; }
+.cert-validation-text { text-align: center; font-size: 15px; color: #fff; margin-bottom: 36px; opacity: .9; }
+.footer-contact { list-style: none; margin-bottom: 36px; }
+.footer-contact li { display: flex; align-items: flex-start; gap: 16px; padding: 14px 0; border-bottom: 1px solid rgba(255,255,255,.1); }
+.footer-contact li:first-child { border-top: 1px solid rgba(255,255,255,.1); }
+.footer-contact .ico { font-size: 22px; color: #f5c842; flex-shrink: 0; margin-top: 2px; width: 26px; text-align: center; }
+.footer-contact .contact-label { font-family: 'Raleway', sans-serif; font-size: 16px; font-weight: 700; color: #fff; display: block; margin-bottom: 2px; }
+.footer-contact .contact-val { font-size: 14px; color: rgba(255,255,255,.8); }
+.footer-contact a { color: rgba(255,255,255,.8); }
+.footer-contact a:hover { color: #fff; }
+.social-row { display: flex; gap: 10px; padding: 20px 0 0; margin-bottom: 0; }
+.social-row a { display: inline-flex; align-items: center; justify-content: center; width: 38px; height: 38px; border-radius: 6px; font-size: 15px; font-weight: 700; text-decoration: none; color: #fff; transition: opacity .2s, transform .15s; }
+.social-row a:hover { opacity: .85; transform: scale(1.05); }
+.social-fb { background: #1877f2; }
+.social-x { background: #000; }
+.social-yt { background: #ff0000; }
+.footer-bottom { border-top: 1px solid rgba(255,255,255,.15); padding: 16px 0 18px; text-align: left; font-size: 13px; color: rgba(255,255,255,.6); margin-top: 20px; }
+.footer-bottom a { color: #5bc8f5; }
+.footer-bottom a:hover { color: #fff; }
+#mobile-menu { display: none; position: absolute; top: 60px; left: 0; right: 0; background: #fff; border-top: 3px solid #1aaced; box-shadow: 0 8px 24px rgba(0,0,0,.13); z-index: 998; max-height: 0; overflow: hidden; transition: max-height .35s ease; }
+#mobile-menu.open { max-height: 600px; }
+#mobile-menu ul { list-style: none; padding: 6px 0 10px; }
+#mobile-menu ul li a { display: block; padding: 13px 22px; font-size: 14px; font-weight: 600; color: #444; border-bottom: 1px solid #f0f0f0; transition: background .15s, color .15s; }
+#mobile-menu ul li a:hover { background: #fdf6ee; color: #e07b00; }
+#mobile-menu ul li.sub-title > a { font-weight: 700; color: #222; background: #f7f7f7; }
+#mobile-menu ul li.sub-item > a { padding-left: 38px; font-size: 13px; color: #666; }
+@media (max-width: 768px) { .main-nav { display: none; } .hamburger { display: flex; } .header-inner { height: 60px; position: relative; } .site-logo img { height: 40px; } h1.page-title { font-size: 24px; } #site-header { position: sticky; top: 0; } }
+</style>
+</head>
+<body>
+
+<header id="site-header">
+  <div class="header-inner">
+    <div class="site-logo">
+      <a href="https://scopeps.com/"><img src="https://scopeps.com/wp-content/uploads/2020/12/Scope-logo.png" alt="Scope Petroleum Services"/></a>
+    </div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="https://scopeps.com/">Home</a></li>
+        <li><a href="https://scopeps.com/about-us/">About Us</a></li>
+        <li>
+          <a href="#">Services <span class="arr">▾</span></a>
+          <ul class="sub-menu">
+            <li><a href="https://scopeps.com/training-courses/">Training Courses</a></li>
+            <li><a href="https://scopeps.com/calibration-and-testing/">Calibration and Testing</a></li>
+            <li><a href="https://scopeps.com/inspection/">Inspection</a></li>
+            <li><a href="https://scopeps.com/welding-and-fabrication/">Welding and Fabrication</a></li>
+            <li><a href="https://scopeps.com/heat-treatment-2/">Heat Treatment</a></li>
+            <li><a href="https://scopeps.com/sand-blasting-and-painting/">Sand Blasting and Painting</a></li>
+          </ul>
+        </li>
+        <li><a href="https://scopeps.com/partners/">Partners</a></li>
+        <li><a href="https://scopeps.com/contact-us/">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div class="hamburger" id="hamburger-btn" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div id="mobile-menu">
+    <ul>
+      <li><a href="https://scopeps.com/">Home</a></li>
+      <li><a href="https://scopeps.com/about-us/">About Us</a></li>
+      <li class="sub-title"><a href="#">Services</a></li>
+      <li class="sub-item"><a href="https://scopeps.com/training-courses/">Training Courses</a></li>
+      <li class="sub-item"><a href="https://scopeps.com/calibration-and-testing/">Calibration and Testing</a></li>
+      <li class="sub-item"><a href="https://scopeps.com/inspection/">Inspection</a></li>
+      <li class="sub-item"><a href="https://scopeps.com/welding-and-fabrication/">Welding and Fabrication</a></li>
+      <li class="sub-item"><a href="https://scopeps.com/heat-treatment-2/">Heat Treatment</a></li>
+      <li class="sub-item"><a href="https://scopeps.com/sand-blasting-and-painting/">Sand Blasting and Painting</a></li>
+      <li><a href="https://scopeps.com/partners/">Partners</a></li>
+      <li><a href="https://scopeps.com/contact-us/">Contact Us</a></li>
+    </ul>
+  </div>
+</header>
+
+<div class="page-bg">
+  <div class="page-wrap">
+    <h1 class="page-title">Certificate Verification</h1>
+    <div class="cert-card">
+      <p class="cert-intro">This certificate is original and produced by Scope Petroleum Services</p>
+      <p class="cert-field"><strong>Client Name:</strong> MSK Co., BASRA , IRAQ</p>
+      <p class="cert-field"><strong>Certificate No.:</strong> ST-4625-28</p>
+      <p class="cert-field"><strong>Date of Next Examination:</strong> 14/Nov/2026</p>
+      <div class="cert-images-wrap">
+        <div class="cert-image-box"><img src="https://scopepspetrolum.vercel.app/v/ST-4625-28-p1.jpg" alt="Certificate Page 1"/></div>
+        <div class="cert-image-box"><img src="https://scopepspetrolum.vercel.app/v/ST-4625-28-p2.jpg" alt="Certificate Page 2"/></div>
+        <div class="cert-image-box"><img src="https://scopepspetrolum.vercel.app/v/ST-4625-28-p3.jpg" alt="Certificate Page 3"/></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer id="site-footer">
+  <div class="footer-inner">
+    <img class="footer-scope-logo" src="https://scopeps.com/wp-content/uploads/2022/11/scope-logo.webp" alt="Scope Petroleum Services"/>
+    <div class="osha-wrap">
+      <a href="https://app.oshacademy-atp.com/verify" target="_blank">
+        <img src="https://scopeps.com/wp-content/uploads/2023/08/logo-2.webp" alt="OSHAcademy Authorized Training Provider - Click Here To Validate Your OSHAcademy Training"/>
+      </a>
+    </div>
+    <p class="cert-validation-text">Certificate Validation</p>
+    <ul class="footer-contact">
+      <li><span class="ico">📍</span><div><span class="contact-label">Address</span><span class="contact-val">Burjesia-Tuba Area -After the Bridge Hamoud El-Wabdan, Basra, Iraq</span></div></li>
+      <li><span class="ico">📞</span><div><span class="contact-label">Phone</span><a class="contact-val" href="tel:+9647803222202">+964 7803222202</a></div></li>
+      <li><span class="ico">✉️</span><div><span class="contact-label">Email</span><a class="contact-val" href="mailto:operation@scopeps.com">operation@scopeps.com</a></div></li>
+    </ul>
+    <div class="social-row">
+      <a class="social-fb" href="https://www.facebook.com/SCOPE-petroleum-services-185316868753233/" target="_blank" title="Facebook">f</a>
+      <a class="social-x" href="#" target="_blank" title="X (Twitter)">𝕏</a>
+      <a class="social-yt" href="#" target="_blank" title="YouTube">▶</a>
+    </div>
+    <div class="footer-bottom">Developed by <a href="https://techno-set.com/" target="_blank">TECHNO SET</a></div>
+  </div>
+</footer>
+
+<script>
+function toggleMenu() {
+  const menu = document.getElementById('mobile-menu');
+  const btn = document.getElementById('hamburger-btn');
+  const isOpen = menu.classList.contains('open');
+  if (isOpen) {
+    menu.classList.remove('open');
+    btn.classList.remove('active');
+  } else {
+    menu.style.display = 'block';
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        menu.classList.add('open');
+        btn.classList.add('active');
+      });
+    });
+  }
+}
+document.addEventListener('click', function(e) {
+  const menu = document.getElementById('mobile-menu');
+  const btn = document.getElementById('hamburger-btn');
+  if (menu.classList.contains('open') && !menu.contains(e.target) && !btn.contains(e.target)) {
+    menu.classList.remove('open');
+    btn.classList.remove('active');
+  }
+});
+</script>
+</body>
+</html>
