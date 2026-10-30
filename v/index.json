@@ -9,10 +9,7 @@
     "model": "CDM855H",
     "htmlPath": "v/ST-4624-11.html",
     "publishedAt": "2026-10-25T10:29:23.906Z",
-    "_matched": [
-      "رقم الشاصي",
-      "تاريخ الفحص"
-    ]
+    "_matched": []
   },
   {
     "certNo": "ST-4624-12",
@@ -23,6 +20,18 @@
     "manu": "LONKING",
     "model": "CDM855H",
     "htmlPath": "v/ST-4624-12.html",
-    "publishedAt": "2026-10-25T10:42:17.100Z"
+    "publishedAt": "2026-10-25T10:42:17.100Z",
+    "_matched": []
+  },
+  {
+    "certNo": "ST-4625-28",
+    "date": "15/Nov/2025",
+    "reg": "A 446 - MAYSAN",
+    "chassis": "VLGL9530VP0622407",
+    "client": "MSK Co., BASRA , IRAQ",
+    "manu": "SDLG ",
+    "model": "LG953",
+    "htmlPath": "v/ST-4625-28.html",
+    "publishedAt": "2026-10-30T20:08:34.745Z"
   }
 ]
