@@ -69,9 +69,7 @@
     "model": "ZX200 - A5 HYBRID ",
     "htmlPath": "v/ST-4625-46.html",
     "publishedAt": "2026-11-13T08:44:03.934Z",
-    "_matched": [
-      "رقم الشاصي"
-    ]
+    "_matched": []
   },
   {
     "certNo": "ST-4625-44",
@@ -83,9 +81,7 @@
     "model": "ZX200 - A5 HYBRID ",
     "htmlPath": "v/ST-4625-44.html",
     "publishedAt": "2026-11-13T08:56:28.734Z",
-    "_matched": [
-      "رقم الشاصي"
-    ]
+    "_matched": []
   },
   {
     "certNo": "ST-4624-43",
@@ -96,6 +92,18 @@
     "manu": "HITACHI ",
     "model": "ZX200 - A5 HYBRID ",
     "htmlPath": "v/ST-4624-43.html",
-    "publishedAt": "2026-11-13T10:01:33.972Z"
+    "publishedAt": "2026-11-13T10:01:33.972Z",
+    "_matched": []
+  },
+  {
+    "certNo": "ST-4624-62",
+    "date": "19/Oct/2026",
+    "reg": "A 6297-BASRA",
+    "chassis": "HCMDCKA0L00306095",
+    "client": "MSK Co., BASRA , IRAQ",
+    "manu": "HITACHI ",
+    "model": "ZX200 - B5",
+    "htmlPath": "v/ST-4624-62.html",
+    "publishedAt": "2026-11-13T10:16:18.587Z"
   }
 ]
