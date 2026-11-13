@@ -45,10 +45,7 @@
     "model": "ZX200 - Z3",
     "htmlPath": "v/ST-4625-29.html",
     "publishedAt": "2026-11-13T07:33:51.784Z",
-    "_matched": [
-      "رقم الشاصي",
-      "رقم اللوحة"
-    ]
+    "_matched": []
   },
   {
     "certNo": "ST-4624-35",
@@ -59,6 +56,18 @@
     "manu": "HITACHI ",
     "model": "ZX200 - Z3",
     "htmlPath": "v/ST-4624-35.html",
-    "publishedAt": "2026-11-13T07:55:44.192Z"
+    "publishedAt": "2026-11-13T07:55:44.192Z",
+    "_matched": []
+  },
+  {
+    "certNo": "ST-4625-46",
+    "date": "06/Oct/2026",
+    "reg": "A 17420 - BABYLON",
+    "chassis": "HCMDCFA0P00010198",
+    "client": "MSK Co., BASRA , IRAQ",
+    "manu": "HITACHI ",
+    "model": "ZX200 - A5 HYBRID ",
+    "htmlPath": "v/ST-4625-46.html",
+    "publishedAt": "2026-11-13T08:44:03.934Z"
   }
 ]
