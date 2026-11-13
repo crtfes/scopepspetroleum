@@ -70,9 +70,7 @@
     "htmlPath": "v/ST-4625-46.html",
     "publishedAt": "2026-11-13T08:44:03.934Z",
     "_matched": [
-      "رقم الشاصي",
-      "رقم اللوحة",
-      "تاريخ الفحص"
+      "رقم الشاصي"
     ]
   },
   {
@@ -84,6 +82,20 @@
     "manu": "HITACHI ",
     "model": "ZX200 - A5 HYBRID ",
     "htmlPath": "v/ST-4625-44.html",
-    "publishedAt": "2026-11-13T08:56:28.734Z"
+    "publishedAt": "2026-11-13T08:56:28.734Z",
+    "_matched": [
+      "رقم الشاصي"
+    ]
+  },
+  {
+    "certNo": "ST-4624-43",
+    "date": "11/Oct/2026",
+    "reg": "A 17420-BABYLON",
+    "chassis": "HCMDCFA0P00010198",
+    "client": "MSK Co., BASRA , IRAQ",
+    "manu": "HITACHI ",
+    "model": "ZX200 - A5 HYBRID ",
+    "htmlPath": "v/ST-4624-43.html",
+    "publishedAt": "2026-11-13T09:54:42.029Z"
   }
 ]
