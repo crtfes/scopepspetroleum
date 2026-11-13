@@ -32,6 +32,18 @@
     "manu": "SDLG ",
     "model": "LG953",
     "htmlPath": "v/ST-4625-28.html",
-    "publishedAt": "2026-10-30T20:08:34.745Z"
+    "publishedAt": "2026-10-30T20:08:34.745Z",
+    "_matched": []
+  },
+  {
+    "certNo": "ST-4625-29",
+    "date": "15/Sep/2026",
+    "reg": "A 6286 - BASRA",
+    "chassis": "HCM1U100A00221607",
+    "client": "MSK Co., BASRA , IRAQ",
+    "manu": "HITACHI ",
+    "model": "ZX200 - Z3",
+    "htmlPath": "v/ST-4625-29.html",
+    "publishedAt": "2026-11-13T07:33:51.784Z"
   }
 ]
